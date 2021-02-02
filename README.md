@@ -1,2 +1,2 @@
 # sr-main
-The main page for my website
+Para tener en cuenta todos los detalles de mi página
