@@ -1,0 +1,13 @@
+.entrance {
+	position:relative;
+	top:50px;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(images/typewritter.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -2;
+}

@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: 'Noto Serif', serif;
+  color: blue; }
+
+.btn-contact {
+  margin: auto;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 20px; }
+
+.white-font {
+  color: white; }
+
+.blog__heading--principal {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
+.blog__heading--subtitle {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.blog__paragraph--main {
+  text-align: left;
+  font-weight: normal; }
+
+/* Estilos para index.html*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  align-items: center;
+  background-color: white;
+  z-index: 2; }
+
+.img-logo {
+  justify-self: start;
+  width: 112px;
+  height: auto; }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.line-folk li {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0 40px; }
+
+.menu-folk a {
+  text-decoration: none;
+  color: black; }
+
+.menu-folk {
+  font-size: 1.1em;
+  transition: 0.2s; }
+
+.menu-folk:hover {
+  transform: translate(0, -5px);
+  border-top: solid 3px black; }
+
+.menu-folk:visited {
+  border-top: solid 3px black; }
+
+.call {
+  position: relative;
+  top: 40vh;
+  left: 0;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  text-align: center;
+  color: white;
+  padding: 30px 0;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.blog {
+  background-color: black;
+  color: white; }
+
+.rights {
+  margin: 10px 0 0 0;
+  font-size: 0.9em;
+  color: gray;
+  text-align: center; }
+
+.type {
+  text-align: center;
+  border-right: solid 3px white;
+  width: 11ch;
+  margin: 30px auto;
+  font-size: 1.5em;
+  font-family: 'Noto Serif', serif;
+  animation-name: typelook;
+  animation-duration: 1s;
+  animation-timing-function: steps(11);
+  overflow: hidden;
+  white-space: nowrap; }
+
+@keyframes typelook {
+  0% {
+    width: 0ch; }
+  100% {
+    width: 11ch; } }
+
+.appear {
+  text-align: center;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'Noto Serif', serif;
+  animation-name: appearlook;
+  animation-duration: 1s;
+  animation-delay: 1.1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards; }
+
+@keyframes appearlook {
+  0% {
+    transform: scale(1.2);
+    opacity: 0; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+
+@media only screen and (max-width: 748px) {
+  .type {
+    font-size: 1em; }
+  .appear {
+    font-size: 1em; }
+  .btn-contact {
+    font-size: 1.3em; } }

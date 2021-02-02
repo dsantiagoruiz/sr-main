@@ -1,0 +1,22 @@
+$secondary-color: blue;
+
+body {
+	margin: 0;
+	font-family: 'Noto Serif', serif;
+	@if $secondary-color == blue {
+		color: blue;
+	}
+
+	@else if $secondary-color == red {
+		color: red;
+	}
+
+	@else {
+		color: black;
+	}
+}
+
+
+@import "variables";
+
+@import "index";
